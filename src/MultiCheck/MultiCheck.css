@@ -1,0 +1,46 @@
+.MultiCheck {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0;
+  border: 1px solid grey;
+}
+
+.MultiCheck .header {
+  margin: 0;
+  height: 44px;
+  background: darkgrey;
+}
+
+.MultiCheck .header h2 {
+  padding: 0 8px 0 8px;
+}
+
+.MultiCheck .contents {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  padding: 1em;
+}
+
+.MultiCheck .group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4em;
+  border-left: 1px dotted #333;
+  padding-left: 2em;
+}
+
+.MultiCheck .group:first-child {
+  border: none;
+  padding: 0;
+}
+
+.MultiCheck .select-all {
+  font-weight: bold;
+}
+
+.MultiCheck .select-all:hover {
+  color: deepskyblue;
+  font-weight: bold;
+}

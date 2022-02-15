@@ -1,0 +1,49 @@
+.App {
+  font-size: 18px;
+  line-height: 200%;
+  padding: 1em;
+}
+
+h1 {
+  display: block;
+  font-size: 40px;
+  line-height: 80px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 44px;
+  margin: 0;
+  padding: 0;
+}
+
+span,
+.label {
+  user-select: none
+}
+
+.label:hover {
+  color: deepskyblue;
+}
+
+.row {
+  display: block;
+  margin: 0.5em 0;
+}
+
+.inputs button {
+  margin: 0 1em 0 1em;
+  font-size: 20px;
+}
+
+.inputs button:hover {
+  color: deepskyblue;
+}
+
+input[type=checkbox] {
+  margin-right: 0.8em;
+  transform: scale(140%);
+}

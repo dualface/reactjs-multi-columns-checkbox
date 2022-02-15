@@ -1,0 +1,7 @@
+node_modules/
+public/bundle.js
+dist/
+package-lock.json
+.idea/
+.vscode/
+
