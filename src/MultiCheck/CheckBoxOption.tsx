@@ -14,6 +14,8 @@ const defaultProps = {
 function CheckBoxOption(props: Props) {
   const { option, checked, onChange } = props;
 
+  console.log(`Render CheckBoxOption ${option.label}`);
+
   return (
     <div key={option.value}>
       <label className='label'>
